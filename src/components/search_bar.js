@@ -9,7 +9,7 @@ class SearchBar extends Component {
   // a class component must have render method.
   render() {
     return (
-      <div>
+      <div className="search-bar">
         {/*changes SearchBar to a controlled component*/}
         <input
           value = {this.state.term}
